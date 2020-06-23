@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Runner.WebOrderRegressionRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.426 s <<< FAILURE! - in Runner.WebOrderRegressionRunner
+Login Functionality Negative Test 2(WebOrder Login page Test)  Time elapsed: 1.684 s  <<< FAILURE!
+org.junit.ComparisonFailure: Error Message Validation expected:<...id Login or Password[]> but was:<...id Login or Password[.]>
+

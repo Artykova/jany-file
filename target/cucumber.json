@@ -1,0 +1,2666 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T15:35:46.286Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1058000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4706160000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login Page Positive Test",
+        "description": "",
+        "id": "weborder-login-page-test;login-page-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1473000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1548033000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 99000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 163000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 904330000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 89000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 91000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124898000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 96000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the demoUser validate the home page",
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_validate_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 71000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-17T15:35:53.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 153000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 120962000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login Functionality Negative Test",
+        "description": "",
+        "id": "weborder-login-page-test;login-functionality-negative-test",
+        "after": [
+          {
+            "result": {
+              "duration": 160000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 514428000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 60000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "the demoUser enters username \"techtorial\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"techtorial\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 110000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 250439000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 70000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 272000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71435000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 484000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "the demoUser validate \"Invalid Login or Password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login or Password.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_validate(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1083000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-17T15:35:54.669Z",
+        "before": [
+          {
+            "result": {
+              "duration": 178000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 121728000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login Functionality Negative Test 1",
+        "description": "",
+        "id": "weborder-login-page-test;login-functionality-negative-test-1",
+        "after": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 522134000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 48000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 61000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341468000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 65000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "the demoUser enters password \"tttt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tttt\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 96000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37294000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 523000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "the demoUser validate \"Invalid Login or Password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login or Password.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_validate(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@conditional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-17T15:35:55.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 139000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 119288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login Functionality Negative Test 2",
+        "description": "",
+        "id": "weborder-login-page-test;login-functionality-negative-test-2",
+        "after": [
+          {
+            "result": {
+              "duration": 797025000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 370050000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 79000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "the demoUser enters username \"Techtorial\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 131000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315186000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 70000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "the demoUser enters password \"tttt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tttt\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 113000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Error Message Validation expected:\u003c...id Login or Password[]\u003e but was:\u003c...id Login or Password[.]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_validate(LoginPageSteps.java:64)\n\tat ✽.the demoUser validate \"Invalid Login or Password\"(file:///Users/nurgazynazarmambetov/IdeaProjects/cucumberbatch4-master/src/test/resources/com.WebOrder/LoginTest.feature:24)\n",
+              "duration": 46695000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 497000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "the demoUser validate \"Invalid Login or Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login or Password\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_validate(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 66000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "WebOrder Login page Test",
+    "description": "",
+    "id": "weborder-login-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.WebOrder/LoginTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T15:35:57.396Z",
+        "before": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 116901000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate new order in WebOrder page",
+        "description": "",
+        "id": "new-order-validation;validate-new-order-in-weborder-page",
+        "after": [
+          {
+            "result": {
+              "duration": 112000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207672000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 60000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 617490000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 37000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 109000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1846813000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 75000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the user enter product info \"MyMoney\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 78000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 581913000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 543000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user enter address info \"David\", \"2200 E devon\", \"Des Plaines\", \"Illinois\", \"60018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"David\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"2200 E devon\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Illinois\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 80
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 422000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370839000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user enter payment info \"Visa\", \"4444333322221111\", \"05/24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visa\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"4444333322221111\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"05/24\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_payment_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 84000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 431938000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 60000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user validate success message",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_success_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 74000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New order validation",
+    "description": "",
+    "id": "new-order-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.WebOrder/NewOrder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T15:36:01.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 141000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 115455000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validation of new order headers",
+        "description": "",
+        "id": "validation-of-headers;validation-of-new-order-headers",
+        "after": [
+          {
+            "result": {
+              "duration": 107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170868000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1028945000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 52000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315201000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 41000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the user goes to the new order page",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_goes_to_the_new_order_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 60000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115059000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 104000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user validate the product headers",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_the_product_headers(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 66000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Product:*"
+                ]
+              },
+              {
+                "cells": [
+                  "Quantity:*"
+                ]
+              },
+              {
+                "cells": [
+                  "Price per unit:"
+                ]
+              },
+              {
+                "cells": [
+                  "Discount:"
+                ]
+              },
+              {
+                "cells": [
+                  "Total:"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93196000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 33000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "the user validate the address headers",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_the_address_headers(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 50000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Customer name:*"
+                ]
+              },
+              {
+                "cells": [
+                  "Street:*"
+                ]
+              },
+              {
+                "cells": [
+                  "City:*"
+                ]
+              },
+              {
+                "cells": [
+                  "State:"
+                ]
+              },
+              {
+                "cells": [
+                  "Zip:*"
+                ]
+              }
+            ],
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of headers",
+    "description": "",
+    "id": "validation-of-headers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.WebOrder/NewOrderDataTable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T15:36:03.473Z",
+        "before": [
+          {
+            "result": {
+              "duration": 86000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 117014000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "New Order Validation",
+        "description": "",
+        "id": "validation-of-new-order-using-scenario-outline;new-order-validation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 122000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 182698000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 57000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 65000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1164809000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 44000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 87000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1546706000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 80000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the user enter product info \"MyMoney\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 59000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 494439000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 101000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user enter address info \"David\", \"2200 E devon\", \"Des Plaines\", \"Illinois\", \"60018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"David\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"2200 E devon\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Illinois\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 80
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 73000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 451331000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 67000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user enter payment info \"Visa\", \"4444333322221111\", \"05/24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visa\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"4444333322221111\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"05/24\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_payment_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 90000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 39313000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 44000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user validate success message",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_success_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 569667000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 118000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "the user validate new order details \"MyMoney\", \"10\", \"David\", \"2200 E devon\", \"Des Plaines\", \"Illinois\", \"60018\", \"Visa\", \"4444333322221111\", \"05/24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"David\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"2200 E devon\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"Illinois\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"Visa\"",
+                  "offset": 114
+                },
+                {
+                  "val": "\"4444333322221111\"",
+                  "offset": 122
+                },
+                {
+                  "val": "\"05/24\"",
+                  "offset": 142
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_new_order_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 47000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-17T15:36:08.069Z",
+        "before": [
+          {
+            "result": {
+              "duration": 97000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 113895000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "New Order Validation",
+        "description": "",
+        "id": "validation-of-new-order-using-scenario-outline;new-order-validation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 204910000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 101000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 565356000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 44000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 100000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1571983000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 92000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the user enter product info \"FamilyAlbum\" and \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 115000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 500524000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 83000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user enter address info \"John\", \"2222 E devon\", \"Chicago\", \"Arizona\", \"50456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"2222 E devon\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Arizona\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"50456\"",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 83000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554901000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 64000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user enter payment info \"MasterCard\", \"4444333322226666\", \"06/26\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"4444333322226666\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"06/26\"",
+                  "offset": 62
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_payment_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 102000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 37613000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 81000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user validate success message",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_success_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 86000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 731488000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 155000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "the user validate new order details \"FamilyAlbum\", \"5\", \"John\", \"2222 E devon\", \"Chicago\", \"Arizona\", \"50456\", \"MasterCard\", \"4444333322226666\", \"06/26\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"John\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"2222 E devon\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Arizona\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"50456\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"4444333322226666\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"06/26\"",
+                  "offset": 145
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_new_order_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 58000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-17T15:36:12.370Z",
+        "before": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 112487000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "New Order Validation",
+        "description": "",
+        "id": "validation-of-new-order-using-scenario-outline;new-order-validation;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 190489000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 128000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 74000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 541046000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 151000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1545196000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 58000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the user enter product info \"ScreenSaver\" and \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 106000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 465839000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 563000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user enter address info \"Jessica\", \"3445 E river\", \"Los Angeles\", \"California\", \"45679\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jessica\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"3445 E river\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Los Angeles\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"California\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"45679\"",
+                  "offset": 84
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 71000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475901000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 39000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the user enter payment info \"American Express\", \"4444333322228888\", \"08/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"American Express\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"4444333322228888\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"08/22\"",
+                  "offset": 68
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_enter_payment_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 45000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 49417000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 67000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user validate success message",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_success_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 475730000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 34000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "the user validate new order details \"ScreenSaver\", \"3\", \"Jessica\", \"3445 E river\", \"Los Angeles\", \"California\", \"45679\", \"American Express\", \"4444333322228888\", \"08/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Jessica\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"3445 E river\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Los Angeles\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"California\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"45679\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 121
+                },
+                {
+                  "val": "\"4444333322228888\"",
+                  "offset": 141
+                },
+                {
+                  "val": "\"08/22\"",
+                  "offset": 161
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_new_order_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 40000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of New order using Scenario Outline",
+    "description": "",
+    "id": "validation-of-new-order-using-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.WebOrder/NewOrderOutline.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-17T15:36:16.243Z",
+        "before": [
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 117143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.message()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validation of All products",
+        "description": "",
+        "id": "all-products;validation-of-all-products",
+        "after": [
+          {
+            "result": {
+              "duration": 88000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 183853000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 47000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the demoUser enters username \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_username(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 126000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474170000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 110000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the demoUser enters password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_enters_password(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 53000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264959000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 69000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the user clicks the all products button",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_clicks_the_all_products_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 49000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311597000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 50000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user validate the product details",
+            "match": {
+              "location": "StepDefinitions.com.weborder.NewOrderSteps.the_user_validate_the_product_details(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 50000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.weborder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Product name",
+                  "Price",
+                  "Discount"
+                ]
+              },
+              {
+                "cells": [
+                  "MyMoney",
+                  "$100",
+                  "8%"
+                ]
+              },
+              {
+                "cells": [
+                  "FamilyAlbum",
+                  "$80",
+                  "15%"
+                ]
+              },
+              {
+                "cells": [
+                  "ScreenSaver",
+                  "$20",
+                  "10%"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "All Products",
+    "description": "",
+    "id": "all-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.WebOrder/ProductDataTable.feature",
+    "tags": []
+  }
+]

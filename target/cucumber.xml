@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="31.529">
+    <testcase classname="WebOrder Login page Test" name="Login Page Positive Test" time="7.362">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+And the demoUser validate the home page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WebOrder Login page Test" name="Login Functionality Negative Test" time="0.969">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "techtorial".............................passed
+When the demoUser enters password "test"....................................passed
+Then the demoUser validate "Invalid Login or Password.".....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WebOrder Login page Test" name="Login Functionality Negative Test 1" time="1.035">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "tttt"....................................passed
+Then the demoUser validate "Invalid Login or Password.".....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WebOrder Login page Test" name="Login Functionality Negative Test 2" time="1.664">
+        <failure message="Error Message Validation expected:&lt;...id Login or Password[]&gt; but was:&lt;...id Login or Password[.]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given the demoUser enters username "Techtorial".............................passed
+When the demoUser enters password "tttt"....................................passed
+Then the demoUser validate "Invalid Login or Password"......................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Error Message Validation expected:<...id Login or Password[]> but was:<...id Login or Password[.]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at StepDefinitions.com.weborder.LoginPageSteps.the_demoUser_validate(LoginPageSteps.java:64)
+	at ✽.the demoUser validate "Invalid Login or Password"(file:///Users/nurgazynazarmambetov/IdeaProjects/cucumberbatch4-master/src/test/resources/com.WebOrder/LoginTest.feature:24)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="New order validation" name="Validate new order in WebOrder page" time="4.184">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+Then the user enter product info "MyMoney" and "10".........................passed
+And the user enter address info "David", "2200 E devon", "Des Plaines", "Illinois", "60018".passed
+* the user enter payment info "Visa", "4444333322221111", "05/24"...........passed
+Then the user validate success message......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of headers" name="Validation of new order headers" time="1.853">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+Then the user goes to the new order page....................................passed
+And the user validate the product headers...................................passed
+* the user validate the address headers.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of New order using Scenario Outline" name="New Order Validation" time="4.59">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+Then the user enter product info "MyMoney" and "10".........................passed
+And the user enter address info "David", "2200 E devon", "Des Plaines", "Illinois", "60018".passed
+* the user enter payment info "Visa", "4444333322221111", "05/24"...........passed
+Then the user validate success message......................................passed
+And the user validate new order details "MyMoney", "10", "David", "2200 E devon", "Des Plaines", "Illinois", "60018", "Visa", "4444333322221111", "05/24".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of New order using Scenario Outline" name="New Order Validation 2" time="4.293">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+Then the user enter product info "FamilyAlbum" and "5"......................passed
+And the user enter address info "John", "2222 E devon", "Chicago", "Arizona", "50456".passed
+* the user enter payment info "MasterCard", "4444333322226666", "06/26".....passed
+Then the user validate success message......................................passed
+And the user validate new order details "FamilyAlbum", "5", "John", "2222 E devon", "Chicago", "Arizona", "50456", "MasterCard", "4444333322226666", "06/26".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of New order using Scenario Outline" name="New Order Validation 3" time="3.866">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+Then the user enter product info "ScreenSaver" and "3"......................passed
+And the user enter address info "Jessica", "3445 E river", "Los Angeles", "California", "45679".passed
+* the user enter payment info "American Express", "4444333322228888", "08/22".passed
+Then the user validate success message......................................passed
+And the user validate new order details "ScreenSaver", "3", "Jessica", "3445 E river", "Los Angeles", "California", "45679", "American Express", "4444333322228888", "08/22".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="All Products" name="Validation of All products" time="1.358">
+        <system-out>
+            <![CDATA[Given the demoUser enters username "Tester".................................passed
+When the demoUser enters password "test"....................................passed
+Then the user clicks the all products button................................passed
+And the user validate the product details...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
