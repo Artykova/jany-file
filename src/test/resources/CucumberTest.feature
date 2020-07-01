@@ -12,3 +12,13 @@ Feature: Cucumber first test
     # Feature file starts with Feature: keyword
     # for every test cases we create the Scenario
     # We need to write the java code inside StepDefinitions
+    When user creates a pet with id,name,status
+    Then the status code is OK
+    And pet with id,name,status is created
+
+
+
+
+
+
+

@@ -1,6 +1,7 @@
 package API;
 
 import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -32,7 +33,7 @@ To send API call:
     URIBuilder uri = new URIBuilder();
     uri.setScheme("https");
     uri.setHost("petstore.swagger.io");
-    uri.setPath("v2/pet/78900");
+    uri.setPath("v2/pet/7890");
     HttpGet get = new HttpGet(uri.build());
 get.setHeader("Accept","application/json");
 //execute
@@ -40,7 +41,7 @@ get.setHeader("Accept","application/json");
     HttpResponse response = client.execute(get);
 
 
-   Assert.assertEquals(200,response.getStatusLine().getStatusCode());
+   Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
 Assert.assertEquals("application/json",response.getEntity().getContentType().getValue());
 
 }
